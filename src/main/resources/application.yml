@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    addresses: 192.168.1.39:5672
+    username: admin
+    password: admin
+    publisher-confirms: true
+    virtual-host: pms-vhost
+  application:
+    name: spring-boot-rabbitmq
